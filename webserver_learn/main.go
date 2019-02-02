@@ -12,4 +12,5 @@ func firstPage(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/", firstPage)
 	http.ListenAndServe(":8000", nil)
+	// 网站上云注意安全组放行8000端口
 }
