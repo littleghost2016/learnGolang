@@ -1,4 +1,5 @@
 create database video_server;
+use video_server;
 
 CREATE TABLE users
 (
@@ -13,7 +14,7 @@ CREATE TABLE video_info
     author_id INT UNSIGNED,
     name TEXT,
     display_ctime TEXT,
-    create_time DATETIME
+    create_time DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE comments
@@ -22,7 +23,7 @@ CREATE TABLE comments
     video_id VARCHAR(64),
     author_id INT UNSIGNED,
     content TEXT,
-    time DATETIME
+    time DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE sessions
