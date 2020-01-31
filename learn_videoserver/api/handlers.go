@@ -6,9 +6,9 @@ import (
 	"io"
 	"io/ioutil"
 	"net/http"
-	"learnGolang/learn_videoserver/api/defs"
-	"learnGolang/learn_videoserver/api/dbops"
-	"learnGolang/learn_videoserver/api/session"
+	"learn_videoserver/api/defs"
+	"learn_videoserver/api/dbops"
+	"learn_videoserver/api/session"
 )
 
 func CreateUser(w http.ResponseWriter, r *http.Request, p httprouter.Params) {

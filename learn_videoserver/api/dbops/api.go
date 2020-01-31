@@ -8,8 +8,8 @@ import (
 
 	// 此处learn_videoserver项目在learnGolang文件夹下面，所以前面有“learnGolang/”
 	// 若单独拿出来learn_videoserver项目放到$GOPATH/src文件夹下面，则需要删除“learnGolang/”
-	"learnGolang/learn_videoserver/api/defs"
-	"learnGolang/learn_videoserver/api/utils"
+	"learn_videoserver/api/defs"
+	"learn_videoserver/api/utils"
 )
 
 func AddUserCredential(loginName string, pwd string) error {

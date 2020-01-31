@@ -5,7 +5,7 @@ import (
 	"errors"
 	"log"
 	"sync"
-	"learnGolang/learn_videoserver/scheduler/dbops"
+	"learn_videoserver/scheduler/dbops"
 )
 
 func deleteVideo(vid string) error {

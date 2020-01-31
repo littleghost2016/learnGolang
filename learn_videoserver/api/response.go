@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 	"encoding/json"
-	"learnGolang/learn_videoserver/api/defs"
+	"learn_videoserver/api/defs"
 )
 
 func sendErrorResponse(w http.ResponseWriter, errResp defs.ErrorResponse) {

@@ -2,8 +2,8 @@ package main
 
 import (
 	"net/http"
-	"learnGolang/learn_videoserver/api/session"
-	"learnGolang/learn_videoserver/api/defs"
+	"learn_videoserver/api/session"
+	"learn_videoserver/api/defs"
 )
 
 var HEADER_FIELD_SESSION = "X-Session-Id"

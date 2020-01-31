@@ -6,7 +6,7 @@ import (
 	"log"
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
-	"learnGolang/learn_videoserver/api/defs"
+	"learn_videoserver/api/defs"
 )
 
 func InsertSession(sid string, ttl int64, uname string) error {

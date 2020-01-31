@@ -3,9 +3,9 @@ package session
 import (
 	"time"
 	"sync"
-	"learnGolang/learn_videoserver/api/defs"
-	"learnGolang/learn_videoserver/api/dbops"
-	"learnGolang/learn_videoserver/api/utils"
+	"learn_videoserver/api/defs"
+	"learn_videoserver/api/dbops"
+	"learn_videoserver/api/utils"
 )
 
 var sessionMap *sync.Map
